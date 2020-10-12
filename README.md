@@ -17,19 +17,37 @@ In the linear mixed models for both outcome variables, the first level was singl
 -	Equations for initial firing rate:
 
 Level 1: 
+
 Initial Firing Rateij = β0j + β1jMuscleij + β2jHip positionij + β3jMuscle*Hip position + β4jForce + etij 
+
 Level 2: 
+
 β0j = γ00 + γ01Sex + u0j
-β1j = γ10 + γ11Sex  β2j = γ20 + γ21Sex
+
+β1j = γ10 + γ11Sex
+
+β2j = γ20 + γ21Sex
+
 β3j = γ30 + γ31Sex
+
 β4j = γ40 
 
 The absolute force at which a single motor unit was recruited was used as a covariate for initial firing rate due to the correlation between recruitment threshold and initial firing rate.  
 
 -	Equations for recruitment threshold:
 
-Level 1 Recruitment Thresholdij = β0j + β1jMuscleij + β2jHip positionij + β3jMuscle*Hip position + etij 
-Level 2 β0j = γ00 + γ01Sex + u0j β1j = γ10 + γ11Sex  β2j = γ20 + γ21Sex
+Level 1: 
+
+Recruitment Thresholdij = β0j + β1jMuscleij + β2jHip positionij + β3jMuscle*Hip position + etij 
+
+Level 2:
+
+β0j = γ00 + γ01Sex + u0j 
+
+β1j = γ10 + γ11Sex  
+
+β2j = γ20 + γ21Sex
+
 β3j = γ30 + γ31Sex
 
 We did not use the averaged absolute force as a covariate because of the clear mathematical relation.
