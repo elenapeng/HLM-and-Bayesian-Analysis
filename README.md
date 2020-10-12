@@ -3,13 +3,13 @@
 --- Hierarchical Linear Models (HLM) used for the publication Peng et al. 2018 
 
 (1) The goals of the models
-'''
+```
 Linear mixed models with an unstructured variance covariance structure and Tukey post hoc tests were used to evaluate the effect of muscle (VM and VMO), sex (male and female), and hip position (no hip rotation and 30 hip lateral rotation) on the two outcome variables, initial firing rate and recruitment threshold, during the isometric straight leg raise tasks. 
-'''
+```
 (2)	The reason of using HLM
-'''
+```
 Mixed effects models were used because multiple motor units from an individual are statistically correlated and mixed models account for this correlation. 
-'''
+```
 (3)	Model structures
 
 In the linear mixed models for both outcome variables, the first level was single motor unit. Single motor units were nested according to each subject to form the second level, which was defined as the subject level. Muscle and hip position were the predictor variables for the motor unit level (level 1), while sex was the predictor variable for the subject level (level 2). 
