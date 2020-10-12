@@ -73,10 +73,10 @@ Bayesian Multilevel Modeling with brm for the paper in preparation.
 
 - Reason of using general HLM models in a Bayesian framework
 ```
-The experimental design and outcome variables, initial firing rate and recruitment threshold, are similar to 
-the previous HLM models. The difference is that we are interested in how knee pain affects the single motor 
-unit performance. Therefore, the “Sex” factor was replaced by the “Group (healthy females and females with 
-patellofemoral pain syndrome)” in the second level.
+The experimental design and outcome variables, initial firing rate and recruitment threshold, are similar to the 
+previous HLM models. The difference is that we are interested in how knee pain affects the single motor unit 
+performance. Therefore, the “Sex” factor was replaced by the “Group (healthy females and females with patellofemoral 
+pain syndrome)” in the second level.
 
 Bayesian mixed model approach allows parameters to vary through marginalization. We are trying to locate the 
 relevant predictors for the outcome variables. Given our observed data, to generate the models with parameters
