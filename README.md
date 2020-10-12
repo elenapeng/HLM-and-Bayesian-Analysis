@@ -1,14 +1,14 @@
 # HLM-and-Bayesian-Analysis
 
-- Hierarchical Linear Models (HLM) used for the publication Peng et al. 2018 
+Hierarchical Linear Models (HLM) used for the publication Peng et al. 2018 
 
-(1) The goals of the models
+1. The goals of the models
 ```
 Linear mixed models with an unstructured variance covariance structure and Tukey post hoc tests were used to evaluate the effect 
 of muscle (VM and VMO), sex (male and female), and hip position (no hip rotation and 30 hip lateral rotation) on the two outcome 
 variables, initial firing rate and recruitment threshold, during the isometric straight leg raise tasks. 
 ```
-(2)	The reason of using HLM
+2.	The reason of using HLM
 ```
 Mixed effects models were used because multiple motor units from an individual are statistically correlated and mixed models 
 account for this correlation. 
