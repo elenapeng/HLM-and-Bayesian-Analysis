@@ -37,8 +37,8 @@ Level 2:
 
 β4j = γ40 
 
-The absolute force at which a single motor unit was recruited was used as a covariate for initial firing rate due to the correlation 
-between recruitment threshold and initial firing rate.  
+The absolute force at which a single motor unit was recruited was used as a covariate for initial firing rate due to the 
+correlation between recruitment threshold and initial firing rate.  
 ```
 Equations for recruitment threshold:
 ```
@@ -60,24 +60,24 @@ We did not use the averaged absolute force as a covariate because of the clear m
 ```
 (4) Summary of the R codes:
 ```
-Loading libraries and data, data pre-processing, assumption tests for multilevel model, HLM for initial firing rate and recruitment 
-threshold, post-hoc analysis for interaction and main effects, box plots.
+Loading libraries and data, data pre-processing, assumption tests for multilevel model, HLM for initial firing rate and 
+recruitment threshold, post-hoc analysis for interaction and main effects, box plots.
 ```
 Paper reference: 
 ```
-Peng YL, Tenan MS, Griffin L. Hip position and sex differences in motor unit firing patterns of the vastus medialis and vastus 
-medialis oblique in healthy individuals. J Appl Physiol (1985) 1;124(6):1438-1446, 2018.
+Peng YL, Tenan MS, Griffin L. Hip position and sex differences in motor unit firing patterns of the vastus medialis and 
+vastus medialis oblique in healthy individuals. J Appl Physiol (1985) 1;124(6):1438-1446, 2018.
 https://journals.physiology.org/doi/pdf/10.1152/japplphysiol.00702.2017
 ```
 - Bayesian Multilevel Modeling with brm for the paper in preparation.
 
 (1)	The reason of using general HLM models in a Bayesian framework:
 ```
-The experimental design and outcome variables, initial firing rate and recruitment threshold, are similar to the previous HLM models. 
-The difference is that we are interested in how knee pain affects the single motor unit performance.  Therefore, the “Sex” factor was 
-replaced by the “Group (healthy females and females with patellofemoral pain syndrome)” in the second level.
+The experimental design and outcome variables, initial firing rate and recruitment threshold, are similar to the previous 
+HLM models. The difference is that we are interested in how knee pain affects the single motor unit performance. Therefore, 
+the “Sex” factor was replaced by the “Group (healthy females and females with patellofemoral pain syndrome)” in the second level.
 
-Bayesian mixed model approach allows parameters to vary through marginalization. We are trying to locate the relevant predictors for 
-the outcome variables. Given our observed data, to generate the models with parameters that have 95% probability to lie within the 
-credible region. 
+Bayesian mixed model approach allows parameters to vary through marginalization. We are trying to locate the relevant predictors 
+for the outcome variables. Given our observed data, to generate the models with parameters that have 95% probability to lie within 
+the credible region. 
 ```
