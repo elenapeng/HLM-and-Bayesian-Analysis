@@ -1,6 +1,6 @@
 # HLM-and-Bayesian-Analysis
 
---- Hierarchical Linear Models (HLM) used for the publication Peng et al. 2018 
+- Hierarchical Linear Models (HLM) used for the publication Peng et al. 2018 
 
 (1) The goals of the models
 ```
@@ -19,7 +19,7 @@ In the linear mixed models for both outcome variables, the first level was singl
 according to each subject to form the second level, which was defined as the subject level. Muscle and hip position were the 
 predictor variables for the motor unit level (level 1), while sex was the predictor variable for the subject level (level 2). 
 ```
--	Equations for initial firing rate:
+Equations for initial firing rate:
 ```
 Level 1: 
 
@@ -39,9 +39,9 @@ Level 2:
 
 The absolute force at which a single motor unit was recruited was used as a covariate for initial firing rate due to the correlation 
 between recruitment threshold and initial firing rate.  
-
--	Equations for recruitment threshold:
-
+```
+Equations for recruitment threshold:
+```
 Level 1: 
 
 Recruitment Thresholdij = β0j + β1jMuscleij + β2jHip positionij + β3jMuscle*Hip position + etij 
@@ -63,13 +63,13 @@ We did not use the averaged absolute force as a covariate because of the clear m
 Loading libraries and data, data pre-processing, assumption tests for multilevel model, HLM for initial firing rate and recruitment 
 threshold, post-hoc analysis for interaction and main effects, box plots.
 ```
-- Paper reference: 
+Paper reference: 
 ```
 Peng YL, Tenan MS, Griffin L. Hip position and sex differences in motor unit firing patterns of the vastus medialis and vastus 
 medialis oblique in healthy individuals. J Appl Physiol (1985) 1;124(6):1438-1446, 2018.
 https://journals.physiology.org/doi/pdf/10.1152/japplphysiol.00702.2017
 ```
---- Bayesian Multilevel Modeling with brm for the paper in preparation.
+- Bayesian Multilevel Modeling with brm for the paper in preparation.
 
 (1)	The reason of using general HLM models in a Bayesian framework:
 ```
