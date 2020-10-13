@@ -18,8 +18,8 @@ and mixed models account for this correlation.
 ```
 In the linear mixed models for both outcome variables, the first level was single motor unit. Single motor 
 units were nested according to each subject to form the second level, which was defined as the subject 
-level. Muscle and hip position were the predictor variables for the motor unit level (level 1), while sex was the 
-predictor variable for the subject level (level 2). 
+level. Muscle and hip position were the predictor variables for the motor unit level (level 1), while sex 
+was the predictor variable for the subject level (level 2). 
 ```
 - Equations for initial firing rate
 ```
@@ -72,7 +72,7 @@ vastus medialis and vastus medialis oblique in healthy individuals. J Appl Physi
 1438-1446, 2018.
 https://journals.physiology.org/doi/pdf/10.1152/japplphysiol.00702.2017
 ```
-Bayesian Multilevel Modeling with brm for the paper in preparation.
+Bayesian Multilevel Modeling with brm for the paper in preparation
 
 - Reason of using general HLM models in a Bayesian framework
 ```
