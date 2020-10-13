@@ -17,8 +17,8 @@ and mixed models account for this correlation.
 - Model structure
 ```
 In the linear mixed models for both outcome variables, the first level was single motor unit. Single motor 
-units were nested according to each subject to form the second level, which was defined as the subject level. 
-Muscle and hip position were the predictor variables for the motor unit level (level 1), while sex was the 
+units were nested according to each subject to form the second level, which was defined as the subject 
+level. Muscle and hip position were the predictor variables for the motor unit level (level 1), while sex was the 
 predictor variable for the subject level (level 2). 
 ```
 - Equations for initial firing rate
@@ -78,8 +78,8 @@ Bayesian Multilevel Modeling with brm for the paper in preparation.
 ```
 The experimental design and outcome variables, initial firing rate and recruitment threshold, are similar 
 to the previous HLM models. The difference is that we are interested in how knee pain affects the single 
-motor unit performance. Therefore, the “Sex” factor was replaced by the “Group (healthy females and females
-with patellofemoral pain syndrome)” in the second level.
+motor unit performance. Therefore, the “Sex” factor was replaced by the “Group (healthy females and 
+females with patellofemoral pain syndrome)” in the second level.
 
 Bayesian mixed model approach allows parameters to vary through marginalization. We are trying to locate 
 the relevant predictors for the outcome variables. Given our observed data, to generate the models with 
