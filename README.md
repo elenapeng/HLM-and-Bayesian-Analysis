@@ -2,6 +2,10 @@
 
 Hierarchical Linear Models (HLM) used for the publication Peng et al. 2018 
 
+- Contributor
+```
+Elena Peng
+```
 - Goals
 ```
 Linear mixed models with an unstructured variance covariance structure and Tukey post hoc tests were used 
